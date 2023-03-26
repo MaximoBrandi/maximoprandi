@@ -56,7 +56,7 @@ This section list frameworks/libraries used to bootstrap this project.
 <!-- LICENSE -->
 ## License
 
-Distributed under the unlicensed licence. See `LICENSE.txt` for more information.
+Distributed under the unlicenced licence. See `LICENCE.md` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ Distributed under the unlicensed licence. See `LICENSE.txt` for more information
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/MaximoBrandi/maximoprandi.svg?style=for-the-badge
-[license-url]: https://github.com/MaximoBrandi/maximoprandi/blob/master/LICENSE.txt
+[license-url]: https://github.com/MaximoBrandi/maximoprandi/blob/master/LICENCE.md
 [product-screenshot]: https://i.postimg.cc/RZT5YTxw/asca.png
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com

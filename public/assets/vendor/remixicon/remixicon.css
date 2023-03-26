@@ -1,0 +1,40 @@
+/*
+* Remix Icon v2.5.0
+* https://remixicon.com
+* https://github.com/Remix-Design/RemixIcon
+*
+* Copyright RemixIcon.com
+* Released under the Apache License Version 2.0
+*
+* Date: 2020-05-23
+*/
+@font-face {
+  font-family: "remixicon";
+  src: url('remixicon.eot?t=1590207869815'); /* IE9*/
+  src: url('remixicon.eot?t=1590207869815#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("remixicon.woff2?t=1590207869815") format("woff2"),
+  url("remixicon.woff?t=1590207869815") format("woff"),
+  url('remixicon.ttf?t=1590207869815') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('remixicon.svg?t=1590207869815#remixicon') format('svg'); /* iOS 4.1- */
+  font-display: swap;
+}
+
+[class^="ri-"], [class*=" ri-"] {
+  font-family: 'remixicon' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ri-anchor-line:before { content: "\ea30"; }
+.ri-bar-chart-box-line:before { content: "\ea98"; }
+.ri-base-station-line:before { content: "\eaa6"; }
+.ri-calendar-todo-line:before { content: "\eb29"; }
+.ri-database-2-line:before { content: "\ec16"; }
+.ri-disc-line:before { content: "\ec36"; }
+.ri-file-list-3-line:before { content: "\ecef"; }
+.ri-fingerprint-line:before { content: "\ed31"; }
+.ri-gradienter-line:before { content: "\eddd"; }
+.ri-paint-brush-line:before { content: "\efc1"; }
+.ri-price-tag-2-line:before { content: "\f021"; }
+.ri-store-line:before { content: "\f1a9"; }
+

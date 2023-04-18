@@ -7,21 +7,7 @@
 
   <title>Máximo Prandi</title>
   <meta content="Soy Maximo Luciano Prandi, un programador y desarrollador especializado en aplicaciones para la web y con experiencia en redes, servidores y sistemas Linux. Si necesitas un desarrollador comprometido y apasionado por su trabajo, no dudes en contactarme para hablar de cómo puedo ayudarte o trabajar para ti." name="description">
-  <meta content="
-  Desarrollo web,
-  Programación,
-  Aplicaciones,
-  PHP,
-  Laravel,
-  Backend,
-  Despliegue de redes,
-  Auditorías web,
-  Configuración de servidores,
-  Sistemas Linux,
-  Seguridad,
-  SEO,
-  Inteligencia artificial,
-  Maximo Luciano Prandi" name="keywords">
+  <meta content="Desarrollo web, Programación, Aplicaciones, PHP, Laravel, Backend, Despliegue de redes, Auditorías web, Configuración de servidores, Sistemas Linux, Seguridad, SEO, Inteligencia artificial, Maximo Luciano Prandi" name="keywords">
 
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -77,7 +63,7 @@
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img  src="assets/img/me.avif" class="img-fluid" alt="">
+          <img  src="assets/img/me.png" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Desarrollador Polivalente</h3>
@@ -345,7 +331,7 @@
                 <div class="card-sl">
                     <div class="card-image">
                         <img
-                            src="assets/img/EFCert.avif" />
+                            src="assets/img/EFCert.png" />
                     </div>
 
                     <a class="card-action" target="_blank" href="https://efset.org/cert/48vEAf"><i style="height:15px; width:15px" class="bi bi-briefcase"></i></a>
@@ -383,89 +369,74 @@
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-app">
           <div class="portfolio-wrap">
-            <img  src="assets/img/portfolio/Larn.avif" class="img-fluid" alt="">
+            <img  src="assets/img/portfolio/Project-1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Larn</h4>
-              <p>Centro de control para programadores</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Larn.avif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="En Larn puedes centralizar tu conocimiento y proyectos en un solo lugar y compartirlos con quienes quieras"><i class="bx bx-plus"></i></a>
-                <a target="_blank" href="https://linktr.ee/openlarn" title="Portfolio Details"><i class="bi bi-chevron-right"></i></a>
-                <a target="_blank" href="https://trello.com/b/wXxeIwqT/larn-todo" title="Portfolio Details"><i class="bi bi-trello"></i></a>
-                <a target="_blank" href="https://github.com/MaximoBrandi/larn" title="Portfolio Details"><i class="bi bi-github"></i></a>
-                <a target="_blank" href="https://larn.bitlink.com.ar" title="Portfolio Details"><i class="bi bi-briefcase"></i></a>
-              </div>
-              <p>En desarrollo</p>
+                <img src="assets/img/portfolio/info-1.avifs" style="cursor: pointer;" class="img-fluid" alt="">
+                <div style="position: relative; bottom: 50%; line-height: 0%;" class="portfolio-links">
+                    <a style="font-size: 16px" target="_blank" href="https://larn.ar"><i style="line-height: 0%;" class="bx bx-world"></i></a>
+                  </div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img  src="assets/img/portfolio/Praendi.avif" class="img-fluid" alt="">
+              <img  src="assets/img/portfolio/Project-3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Prændi</h4>
-                <p>Blog personal de desarrollador</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Praendi.avif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Es un blog personal con foro y funcionalidades integradas para compartir mi conocimiento personal como desarrollador y facilitar ayuda a la comunidad"><i class="bx bx-plus"></i></a>
-                  <a target="_blank" href="https://linktr.ee/praendi" title="Portfolio Details"><i class="bi bi-chevron-right"></i></a>
-                </div>
-                <p>En desarrollo</p>
+                <img src="assets/img/portfolio/info-3.avifs" style="cursor: pointer;" class="img-fluid" alt="">
+                <div style="position: relative; bottom: 50%; line-height: 0%;" class="portfolio-links">
+                    <a style="font-size: 16px" target="_blank" href="https://praendi.ar"><i style="line-height: 0%;" class="bx bx-world"></i></a>
+                  </div>
               </div>
             </div>
           </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-app">
           <div class="portfolio-wrap">
-            <img  src="assets/img/portfolio/Lavor.avif" class="img-fluid" alt="">
+            <img  src="assets/img/portfolio/Project-2.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Lavor</h4>
-              <p>Ecosistema de trabajo para centros educativos</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Lavor.avif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lavor es un entorno con orientación a la educación que cuenta con todas las herramientas para que desenvolverse como alumno sea una experiencia actual"><i class="bx bx-plus"></i></a>
+              <img src="assets/img/portfolio/info-2.avifs" style="cursor: pointer;" class="img-fluid" alt="">
+              <div style="position: relative; bottom: 50%; line-height: 0%;" class="portfolio-links">
+                <a style="font-size: 16px" target="_blank" href="https://lavor.maximoprandi.tech"><i style="line-height: 0%;" class="bx bx-world"></i></a>
               </div>
-              <p>Próximamente en desarrollo</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-utility">
           <div class="portfolio-wrap">
-            <img  src="assets/img/portfolio/Archaine.avif" class="img-fluid" alt="">
+            <img  src="assets/img/portfolio/Project-5.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Archaine</h4>
-              <p>Panel de control para páginas webs tercerizadas</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Archaine.avif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Archaine es un gestor de páginas webs orientado a ser simple para las personas sin conocimiento de desarrollo web o despliegue web"><i class="bx bx-plus"></i></a>
-              </div>
-              <p>Próximamente en desarrollo</p>
+                <img src="assets/img/portfolio/info-5.avifs" style="cursor: pointer;" class="img-fluid" alt="">
+                <div style="position: relative; bottom: 50%; line-height: 0%;" class="portfolio-links">
+                    <a style="font-size: 16px" target="_blank" href="https://learth.maximoprandi.tech"><i style="line-height: 0%;" class="bx bx-world"></i></a>
+                </div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-app">
           <div class="portfolio-wrap">
-            <img  src="assets/img/portfolio/Triplo.avif" class="img-fluid" alt="">
+            <img  src="assets/img/portfolio/Project-4.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Triplo</h4>
-              <p>Red social orientada al conocimiento</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Triplo.avif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Red social orientada a compartir en lo que eres bueno con los demás, también es parte del entorno de Lavor"><i class="bx bx-plus"></i></a>
-              </div>
-              <p>Próximamente en desarrollo</p>
+                <img src="assets/img/portfolio/info-4.avifs" style="cursor: pointer;" class="img-fluid" alt="">
+                <div style="position: relative; bottom: 50%; line-height: 0%;" class="portfolio-links">
+                    <a style="font-size: 16px" target="_blank" href="https://tripl.maximoprandi.tech"><i style="line-height: 0%;" class="bx bx-world"></i></a>
+                </div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img  src="assets/img/portfolio/Wilde.avif" class="img-fluid" alt="">
+            <img  src="assets/img/portfolio/Wilde.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Wilde institute</h4>
               <p>Instituto económico con valores de libertad</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/Wilde.avif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Es un instituto educativo en economía con base en ideas y valores fundamentados en la libertad de las personas como eje principal"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/Wilde.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Es un instituto educativo en economía con base en ideas y valores fundamentados en la libertad de las personas como eje principal"><i class="bx bx-plus"></i></a>
               </div>
               <p>Próximamente en desarrollo</p>
             </div>
@@ -474,12 +445,12 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-app filter-utility">
             <div class="portfolio-wrap">
-              <img  src="assets/img/portfolio/Jildam.avif" class="img-fluid" alt="">
+              <img  src="assets/img/portfolio/Jildam.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Jildam</h4>
                 <p>Gestor de contraseñas</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Jildam.avif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Jildam es un gestor de contraseñas con alto enfoque en la privacidad, evitando la práctica de almacenamiento de datos, desarrollado en 2021 en equipo de 3 desarrolladores"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/Jildam.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Jildam es un gestor de contraseñas con alto enfoque en la privacidad, evitando la práctica de almacenamiento de datos, desarrollado en 2021 en equipo de 3 desarrolladores"><i class="bx bx-plus"></i></a>
                   <a target="_blank" href="https://linktr.ee/jildam" title="Portfolio Details"><i class="bi bi-chevron-right"></i></a>
                   <a target="_blank" href="https://trello.com/w/lavandateam3" title="Portfolio Details"><i class="bi bi-trello"></i></a>
                   <a target="_blank" href="https://github.com/MaximoBrandi/Jildam" title="Portfolio Details"><i class="bi bi-github"></i></a>
@@ -492,12 +463,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img  src="assets/img/portfolio/LAC.avif" class="img-fluid" alt="">
+              <img  src="assets/img/portfolio/LAC.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>LAC</h4>
                 <p>Plataforma de apoyo educativo</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/LAC.avif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="LAC es una plataforma de apoyo educativo, en la que los alumnos pueden subir materiales de ayuda para las diferentes materias como las carpetas de las mismas, junto con un acceso rápido a las últimas noticias del curso, fue desarrollado a principios de 2022. Discontinuado en favor de Lavor"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/LAC.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="LAC es una plataforma de apoyo educativo, en la que los alumnos pueden subir materiales de ayuda para las diferentes materias como las carpetas de las mismas, junto con un acceso rápido a las últimas noticias del curso, fue desarrollado a principios de 2022. Discontinuado en favor de Lavor"><i class="bx bx-plus"></i></a>
                   <a target="_blank" href="https://linktr.ee/lac_project" title="Portfolio Details"><i class="bi bi-chevron-right"></i></a>
                   <a target="_blank" href="https://trello.com/b/LKD2UiGg/project-management" title="Portfolio Details"><i class="bi bi-trello"></i></a>
                   <a target="_blank" href="https://github.com/MaximoBrandi/LAC" title="Portfolio Details"><i class="bi bi-github"></i></a>

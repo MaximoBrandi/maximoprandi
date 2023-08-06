@@ -1,0 +1,37 @@
+{
+    "language":{
+        "name":"it",
+        "lang":"it",
+        "fullname":"Italiano",
+        "selector":{
+            "first":{
+                "name":"gb",
+                "fullname":"English",
+                "url":"/en"
+            },
+            "second":{
+                "name":"es",
+                "fullname":"Español",
+                "url":"/es"
+            }
+        },
+        "keywords":"Maximo Luciano Prandi, Sviluppatore Web, Sviluppatore Software, Freelancer, Programmatore, Sviluppatore PHP, Sviluppatore Laravel, Sviluppatore Backend, Deploy Server, Deploy Linux",
+        "description":"Sono Máximo Luciano Prandi, un programmatore e sviluppatore specializzato in applicazioni web con esperienza in reti, server e sistemi Linux. Se hai bisogno di un programmatore impegnato e appassionato per i tuoi progetti, non esitare a contattarmi per discutere di come posso aiutarti o collaborare con te."
+    },
+
+    "stay-title": "Controlla Informazioni e Sicurezza",
+    "stay-subtitle": "Stay è un'applicazione che consente di monitorare e gestire la presenza e le performance dei tuoi dipendenti o studenti. Big data e data science a portata della tua organizzazione.",
+    "know-more": "Saperne di più",
+    "larn-title": "Un Nuovo Modo di Apprendere",
+    "larn-subtitle": "Larn è un gestore di pagine web offline, focalizzato sulla conoscenza, per facilitare l'accesso alla documentazione senza internet.",
+    "jildam-title": "Un Luogo per Conservare le Password",
+    "jildam-subtitle": "Jildam è un semplice gestore e generatore di password open-source sviluppato in PHP.",
+    "lac-title": "Semplificare l'Apprendimento e la Convivenza",
+    "lac-subtitle": "LAC è una piattaforma di supporto agli studenti in cui gli studenti dello stesso corso possono condividere diversi tipi di documentazione tra loro, mentre aggiornano i compiti richiesti dai professori e accedono facilmente a date importanti.",
+    "my-projects": "Progetti in Sviluppo o Sviluppati",
+    "my-projects-description": "I miei progetti",
+    "all": "Tutti",
+    "complete-projects": "Progetti Lanciati",
+    "ongoing-projects": "Progetti in Sviluppo",
+    "contact-me": "Contattami"
+}

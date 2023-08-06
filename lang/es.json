@@ -1,0 +1,37 @@
+{
+    "language":{
+        "name":"es",
+        "lang":"es",
+        "fullname":"Español",
+        "selector":{
+            "first":{
+                "name":"gb",
+                "fullname":"English",
+                "url":"/en"
+            },
+            "second":{
+                "name":"it",
+                "fullname":"Italiano",
+                "url":"/it"
+            }
+        },
+        "keywords":"Soy Máximo Luciano Prandi, un programador y desarrollador especializado en aplicaciones para la web y con experiencia en redes, servidores y sistemas Linux. Si necesitas un desarrollador comprometido y apasionado por su trabajo, no dudes en contactarme para hablar de cómo puedo ayudarte o trabajar para ti.",
+        "description":"Larn es una aplicación de código abierto que proponemos permite gestionar repositorios de páginas web descargadas para su visualización sin conexión a Internet, especialmente diseñada para documentación de lenguajes de programación y frameworks. La aplicación es compatible con múltiples plataformas y ofrece la opción de selfhosting."
+    },
+
+    "stay-title":"Controla la información y seguridad",
+    "stay-subtitle":"Stay es una aplicación que te permite monitorear y gestionar la asistencia y el rendimiento de tus empleados o estudiantes. Big data y data science al alcance de tu organización.",
+    "know-more":"Saber mas",
+    "larn-title":"Una nueva forma de aprender",
+    "larn-subtitle":"Larn es un gestor de paginas web offline, enfocado al conocimiento, para facilitar el acceso a documentaciones sin internet.",
+    "jildam-title":"Un lugar donde almacenar seguridad",
+    "jildam-subtitle":"Jildam es un simple gestor y generador de contraseñas de código abierto desarrollado en php",
+    "lac-title":"Simplificar el aprendizaje y la convivencia",
+    "lac-subtitle":"LAC es una plataforma de apoyo estudiantil en donde los alumnos de un mismo curso pueden compartir diferentes tipos de documentación entre todos, al mismo tiempo que actualizar las tareas que solicitan los profesores y acceder fácilmente a las fechas importantes",
+    "my-projects":"Proyectos en desarrollo o desarrollados",
+    "my-projects-description":"Mis proyectos",
+    "all":"Todos",
+    "complete-projects":"Proyectos lanzados",
+    "ongoing-projects":"Proyectos en desarrollo",
+    "contact-me":"Contactarme"
+}

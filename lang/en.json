@@ -1,0 +1,37 @@
+{
+    "language":{
+        "name":"gb",
+        "lang":"en",
+        "fullname":"English",
+        "selector":{
+            "first":{
+                "name":"es",
+                "fullname":"Español",
+                "url":"/es"
+            },
+            "second":{
+                "name":"it",
+                "fullname":"Italiano",
+                "url":"/it"
+            }
+        },
+        "keywords":"Maximo Luciano Prandi, Web Developer, Software Developer, Freelancer, Programmer, PHP Developer, Laravel Developer, Backend Developer, Deploy Servers, Deploy Linux",
+        "description":"I am Máximo Luciano Prandi, a programmer and developer specialized in web applications with experience in networking, servers, and Linux systems. If you need a committed and passionate developer for your projects, feel free to contact me to discuss how I can assist you or work with you."
+    },
+
+    "stay-title": "Control Information and Security",
+    "stay-subtitle": "Stay is an application that allows you to monitor and manage attendance and performance of your employees or students. Big data and data science at the reach of your organization.",
+    "know-more": "Know more",
+    "larn-title": "A New Way of Learning",
+    "larn-subtitle": "Larn is an offline web page manager, focused on knowledge, to facilitate access to documentation without internet.",
+    "jildam-title": "A Place to Store Security",
+    "jildam-subtitle": "Jildam is a simple open-source password manager and generator developed in PHP.",
+    "lac-title": "Simplify Learning and Coexistence",
+    "lac-subtitle": "LAC is a student support platform where students of the same course can share different types of documentation among themselves, while updating the tasks requested by teachers and easily accessing important dates.",
+    "my-projects": "Projects in Development or Developed",
+    "my-projects-description": "My projects",
+    "all": "All",
+    "complete-projects": "Launched Projects",
+    "ongoing-projects": "Ongoing Projects",
+    "contact-me": "Contact Me"
+}

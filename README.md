@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://maximoprandi.tech">
-    <img src="https://i.ibb.co/3RYfNcY/ascasfa.png" alt="Logo" width="80" height="80">
+    <img src="https://i.postimg.cc/x1X1D7gL/apple-touch-icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Máximo Prandi main page</h3>
@@ -68,7 +68,7 @@ Distributed under the unlicenced licence. See `LICENCE.md` for more information.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/MaximoBrandi/maximoprandi.svg?style=for-the-badge
 [license-url]: https://github.com/MaximoBrandi/maximoprandi/blob/master/LICENCE.md
-[product-screenshot]: https://i.postimg.cc/RZT5YTxw/asca.png
+[product-screenshot]: https://i.ibb.co/3RYfNcY/ascasfa.png
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white

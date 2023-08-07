@@ -132,7 +132,7 @@
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 style="text-shadow: 2px 2px 4px #000000; color:azure" class="display-5 mb-4">{{__('stay-title')}}</h1>
-                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(103, 103, 103)" class="mb-4">{{__('stay-subtitle')}}</p>
+                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(0, 0, 0)" class="mb-4">{{__('stay-subtitle')}}</p>
                     <a target="_blank" class="btn btn-primary py-3 px-4" href="https://stay.com.ar">{{__('know-more')}}</a>
                 </div>
             </div>
@@ -146,7 +146,7 @@
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 style="text-shadow: 2px 2px 4px #000000; color:azure" class="display-5 mb-4">{{__('larn-title')}}</h1>
-                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(103, 103, 103)" class="mb-4">{{__('larn-subtitle')}}</p>
+                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(0, 0, 0)" class="mb-4">{{__('larn-subtitle')}}</p>
                     <a target="_blank" class="btn btn-primary py-3 px-4" href="https://larn.ar">{{__('know-more')}}</a>
                 </div>
             </div>
@@ -160,7 +160,7 @@
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-5 mb-4" style="text-shadow: 2px 2px 4px #000000; color:azure">{{__('jildam-title')}}</h1>
-                    <p class="mb-4" style="text-shadow: 2px 2px 4px #000000; color:rgb(103, 103, 103)">{{__('jildam-subtitle')}}</p>
+                    <p class="mb-4" style="text-shadow: 2px 2px 4px #000000; color:rgb(0, 0, 0)">{{__('jildam-subtitle')}}</p>
                     <a target="_blank" class="btn btn-primary py-3 px-4" href="https://github.com/MaximoBrandi/Jildam">{{__('know-more')}}</a>
                 </div>
             </div>
@@ -174,7 +174,7 @@
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 style="text-shadow: 2px 2px 4px #000000; color:azure" class="display-5 mb-4">{{__('lac-title')}}</h1>
-                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(103, 103, 103)" class="mb-4">{{__('lac-subtitle')}}</p>
+                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(0, 0, 0)" class="mb-4">{{__('lac-subtitle')}}</p>
                     <a target="_blank" class="btn btn-primary py-3 px-4" href="https://github.com/MaximoBrandi/lac">{{__('know-more')}}</a>
                 </div>
             </div>

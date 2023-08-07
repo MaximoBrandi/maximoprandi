@@ -15,6 +15,8 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/favicon.ico" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.tailwindcss.com cdn.jsdelivr.net fonts.googleapis.com unpkg.com fonts.gstatic.com; " />
+
     <link rel="alternate" href="https://maximoprandi.tech/es" hreflang="es" />
     <link rel="alternate" href="https://maximoprandi.tech/en" hreflang="en" />
     <link rel="alternate" href="https://maximoprandi.tech/it" hreflang="it" />
@@ -39,20 +41,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/css/all.min.css" rel="stylesheet">
+    <link href="/lib/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/lib/animate/animate.min.css" rel="stylesheet">
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
 
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -86,8 +88,10 @@
         <div id="header-carousel" data-bs-interval="12000" class="carousel slide"  data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <video class="w-100" autoplay loop muted playsinline alt="Stay video">
-                        <source src="/img/Stay.mp4" type="video/mp4">
+                    <video class="absolute md:static top-0 left-0 w-full h-full object-cover z-0" autoplay loop muted playsinline alt="Stay video">
+                        <source src="/video/av1/Stay.mp4" type='video/mp4'>
+                        <source src="/video/h265/Stay.mp4" type='video/mp4'>
+                        <source src="/video/h264/Stay.mp4" type='video/mp4'>
                     </video>
                     <div class="carousel-caption">
                         <div class="container">
@@ -101,12 +105,15 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <video class="w-100" autoplay loop muted playsinline alt="Larn video">
-                        <source src="/img/Larn.mp4" type="video/mp4"></video>
+                    <video class="absolute md:static top-0 left-0 w-full h-full object-cover z-0" autoplay loop muted playsinline alt="Larn video">
+                        <source src="/video/av1/Larn.mp4" type='video/mp4'>
+                        <source src="/video/h265/Larn.mp4" type='video/mp4'>
+                        <source src="/video/h264/Larn.mp4" type='video/mp4'>
+                    </video>
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-7">
+                                <div class="col-lg-8">
                                     <h1 class="display-1 text-white mb-5 animated slideInDown">{{__('larn-title')}}</h1>
                                     <a target="_blank" href="https://larn.ar" class="btn btn-primary py-sm-3 px-sm-4">{{__('know-more')}}</a>
                                 </div>
@@ -120,12 +127,12 @@
     <!-- Carousel End -->
 
     <!-- About Start -->
-    <div data-parallax="scroll" data-image-src="img/stay-banner.png" class="facts container-fluid py-5">
+    <div data-parallax="scroll" @if (Browser::isEdge() || (Browser::isMac() && Browser::isMobile())) data-image-src="img/png/stay-banner.png" @else data-image-src="img/avif/stay-banner.avif" @endif class="facts container-fluid py-5">
         <div class="mt-56 mb-56 container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 style="text-shadow: 2px 2px 4px #000000; color:azure" class="display-5 mb-4">{{__('stay-title')}}</h1>
-                    <p style="text-shadow: 2px 2px 4px #000000; color:blanchedalmond" class="mb-4">{{__('stay-subtitle')}}</p>
+                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(103, 103, 103)" class="mb-4">{{__('stay-subtitle')}}</p>
                     <a target="_blank" class="btn btn-primary py-3 px-4" href="https://stay.com.ar">{{__('know-more')}}</a>
                 </div>
             </div>
@@ -134,12 +141,12 @@
     <!-- About End -->
 
     <!-- About Start -->
-    <div data-parallax="scroll" data-image-src="img/larn-banner.png" class="facts container-fluid py-5">
+    <div data-parallax="scroll" @if (Browser::isEdge() || (Browser::isMac() && Browser::isMobile())) data-image-src="img/png/larn-banner.png" @else data-image-src="img/avif/larn-banner.avif" @endif class="facts container-fluid py-5">
         <div class="mt-56 mb-56 container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 style="text-shadow: 2px 2px 4px #000000; color:azure" class="display-5 mb-4">{{__('larn-title')}}</h1>
-                    <p style="text-shadow: 2px 2px 4px #000000; color:blanchedalmond" class="mb-4">{{__('larn-subtitle')}}</p>
+                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(103, 103, 103)" class="mb-4">{{__('larn-subtitle')}}</p>
                     <a target="_blank" class="btn btn-primary py-3 px-4" href="https://larn.ar">{{__('know-more')}}</a>
                 </div>
             </div>
@@ -148,12 +155,12 @@
     <!-- About End -->
 
     <!-- About Start -->
-    <div data-parallax="scroll" data-image-src="img/jildam.png" class="facts container-fluid py-5">
+    <div data-parallax="scroll" @if (Browser::isEdge() || (Browser::isMac() && Browser::isMobile())) data-image-src="img/png/jildam.png" @else data-image-src="img/avif/jildam.avif" @endif class="facts container-fluid py-5">
         <div class="mt-56 mb-56 container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-5 mb-4" style="text-shadow: 2px 2px 4px #000000; color:azure">{{__('jildam-title')}}</h1>
-                    <p class="mb-4" style="text-shadow: 2px 2px 4px #000000; color:blanchedalmond">{{__('jildam-subtitle')}}</p>
+                    <p class="mb-4" style="text-shadow: 2px 2px 4px #000000; color:rgb(103, 103, 103)">{{__('jildam-subtitle')}}</p>
                     <a target="_blank" class="btn btn-primary py-3 px-4" href="https://github.com/MaximoBrandi/Jildam">{{__('know-more')}}</a>
                 </div>
             </div>
@@ -162,12 +169,12 @@
     <!-- About End -->
 
     <!-- About Start -->
-    <div data-parallax="scroll" data-image-src="img/LAC.png" class="facts container-fluid py-5">
+    <div data-parallax="scroll" @if (Browser::isEdge() || (Browser::isMac() && Browser::isMobile())) data-image-src="img/png/LAC.png" @else data-image-src="img/avif/LAC.avif" @endif class="facts container-fluid py-5">
         <div class="mt-56 mb-56 container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 style="text-shadow: 2px 2px 4px #000000; color:azure" class="display-5 mb-4">{{__('lac-title')}}</h1>
-                    <p style="text-shadow: 2px 2px 4px #000000; color:blanchedalmond" class="mb-4">{{__('lac-subtitle')}}</p>
+                    <p style="text-shadow: 2px 2px 4px #000000; color:rgb(103, 103, 103)" class="mb-4">{{__('lac-subtitle')}}</p>
                     <a target="_blank" class="btn btn-primary py-3 px-4" href="https://github.com/MaximoBrandi/lac">{{__('know-more')}}</a>
                 </div>
             </div>
@@ -195,7 +202,10 @@
             <div class="row g-4 portfolio-container">
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/stay.png" alt="">
+                        <picture >
+                            <source srcset="img/avif/stay.avif" type="image/avif">
+                            <img class="img-fluid" alt="Stay" src="img/png/stay.png" type="image/png">
+                        </picture>
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Stay</h4>
                             <div class="d-flex">
@@ -207,7 +217,10 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/Project-1.png" alt="">
+                        <picture >
+                            <source srcset="img/avif/Project-1.avif" type="image/avif">
+                            <img class="img-fluid" alt="Larn" src="img/png/Project-1.png" type="image/png">
+                        </picture>
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Larn</h4>
                             <div class="d-flex">
@@ -219,7 +232,10 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/Jildam.png" alt="">
+                        <picture >
+                            <source srcset="img/avif/Jildam.avif" type="image/avif">
+                            <img src="img/png/Jildam.png" class="img-fluid" alt="Jildam" type="image/png">
+                        </picture>
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Jildam</h4>
                             <div class="d-flex">
@@ -230,7 +246,10 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="img/LAC.png" alt="">
+                        <picture>
+                            <source srcset="img/avif/LAC.avif" type="image/avif" />
+                            <img src="img/png/LAC.png" class="img-fluid" type="image/png" alt="LAC"/>
+                        </picture>
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">LAC</h4>
                             <div class="d-flex">
@@ -298,18 +317,18 @@
 
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/parallax/parallax.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="/lib/wow/wow.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/counterup/counterup.min.js"></script>
+    <script src="/lib/parallax/parallax.min.js"></script>
+    <script src="/lib/isotope/isotope.pkgd.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
